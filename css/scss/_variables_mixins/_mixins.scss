@@ -1,0 +1,17 @@
+/* mixins.scss */
+
+@mixin transition(){
+  transition: all .2s;
+}
+
+@mixin blueOverlay(){
+  .overlay-blue{
+
+  }
+}
+
+@mixin goldOverlay(){
+  .overlay-gold{
+
+  }
+}

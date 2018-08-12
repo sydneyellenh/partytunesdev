@@ -1,0 +1,45 @@
+/* tablet media query */
+
+@media screen and (min-width: 992px){
+  #wedding-wire{
+    .ww-review-box-outer {
+      width: 30%;
+      display: inline-block;
+    }
+    .ww-reviews-header-box {
+      display: none;
+    }
+
+    div#ww-widget-reviews {
+      width: 100% !important;
+      max-width: 100% !important;
+
+      .ww-reviews-box {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+
+        .ww-review-score-box {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+@media screen and (max-width: 991px){
+  #wedding-wire{
+
+    .ww-reviews-header-box {
+      display: none;
+    }
+
+    .ww-reviews-widget {
+      min-width: 100%;
+    }
+  }
+}

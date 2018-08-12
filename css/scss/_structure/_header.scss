@@ -1,0 +1,59 @@
+/* header */
+
+a.skip-link.screen-reader-text {
+  display: none;
+}
+
+.wpfront-message {
+  font-size: 19px;
+  font-family: "Raleway", sans-serif;
+}
+
+div#wpfront-notification-bar {
+  min-height: 33px;
+}
+
+
+
+nav.navbar{
+  background: rgba(255, 255, 255, 0.8) !important;
+  z-index: 999 !important;
+
+  .container{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .center-nav{
+    margin: 0 auto;
+    text-align: center;
+
+    ul#menu-main-menu {
+      display: inline-block !important;
+
+      li{
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+
+        a{
+          @include transition();
+          font-family: $oswald;
+          color: $black;
+          font-size: 19px;
+
+          &:hover{
+            @include transition();
+            color: $red;
+            text-decoration: none;
+          }
+
+        }
+      }
+    }
+
+  }
+
+}
+

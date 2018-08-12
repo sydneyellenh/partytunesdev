@@ -1,0 +1,65 @@
+/* home.scss */
+
+.home{
+
+  .sc-header{
+
+  }
+
+  .seperator-img-1 {
+    .vce-single-image-wrapper{
+      margin-bottom: 10px;
+
+      img {
+        width: 75%;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  #welcome-to{
+    h1{
+      color: $blue;
+    }
+
+    h3{
+
+    }
+  }
+
+  #weddings{
+    .vce-row.vce-element--has-background {
+
+    }
+
+    h2, p{
+      color: $white;
+    }
+  }
+
+  #reception-services{
+    h2, p{
+      color: $white;
+    }
+  }
+
+  #wedding-wire{
+    .ww-reviews-box {
+      border-top: 1px solid #ffffff;
+      background-color: #ffffff;
+    }
+
+    .ww-review-box b {
+      background-image: none !important;
+    }
+
+    .ww-review-box-outer {
+      background: none !important;
+      border: 1px solid #FCE462;
+    }
+
+  }
+
+
+
+}

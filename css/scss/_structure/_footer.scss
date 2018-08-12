@@ -1,0 +1,40 @@
+/* footer */
+
+footer {
+  .textwidget.custom-html-widget {
+    text-align: center;
+    a {
+      img {
+        height: 33px;
+      }
+      i {
+        font-size: 30px;
+        vertical-align: middle;
+        padding: 0px 5px;
+        color: $blue;
+        @include transition();
+
+
+        &:hover{
+          @include transition();
+          color: $blue;
+
+        }
+      }
+    }
+  }
+
+  p{
+    margin-top:20px;
+    text-align: center;
+    font-size:13px;
+    a{
+      color: $grey;
+      @include transition();
+      &:hover{
+        @include transition();
+        color: $red;
+      }
+    }
+  }
+}

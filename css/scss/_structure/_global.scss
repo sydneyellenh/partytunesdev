@@ -1,0 +1,32 @@
+/* global */
+
+#content{
+  margin-top: -60px;
+
+  h1.entry-title{
+    display: none;
+  }
+  
+  a{
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+  .sc-cta{
+    h2, p{
+      color: $white;
+      span{
+        color: $gold;
+      }
+    }
+  }
+
+  span.vce-button--style-outline-text {
+    font-family: $oswald;
+    font-size: 18px;
+  }
+
+}

@@ -1,0 +1,29 @@
+/* variables and mixins */
+@import "_variables_mixins/variables";
+@import "_variables_mixins/mixins";
+
+/* typeography */
+@import "_typeography/fonts";
+
+/* structure */
+@import "_structure/header";
+@import "_structure/global";
+@import "_structure/footer";
+
+/* pages */
+@import "_pages/home";
+@import "_pages/services";
+@import "_pages/wedding";
+
+@import "_pages/cust_welcome_page";
+@import "_pages/contact";
+
+/* media queries */
+@import "_media_queries/desktop";
+@import "_media_queries/laptop";
+@import "_media_queries/tablet";
+@import "_media_queries/phone";
+
+/* extras */
+
+//@import "_extras/normalize";

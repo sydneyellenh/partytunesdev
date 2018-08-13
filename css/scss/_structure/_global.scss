@@ -1,10 +1,14 @@
 /* global */
 
 #content{
-  margin-top: -60px;
+  margin-top: -100px;
 
   h1.entry-title{
     display: none;
+  }
+
+  .sc-img-header{
+
   }
   
   a{
@@ -27,6 +31,26 @@
   span.vce-button--style-outline-text {
     font-family: $oswald;
     font-size: 18px;
+  }
+
+  #wedding-wire{
+    .ww-reviews-box {
+      border-top: 1px solid #ffffff;
+      background-color: #ffffff;
+    }
+
+    .ww-review-box b {
+      background-image: none !important;
+    }
+
+    .ww-review-box-outer {
+      background: none !important;
+      border: 1px solid #FCE462;
+    }
+
+    div#ww-widget-reviews {
+      border: none;
+    }
   }
 
 }

@@ -1,1 +1,96 @@
 /* contact.scss */
+
+.page-id-2726{
+
+  #contact{
+    h1{
+      color: $blue;
+    }
+
+    strong, b{
+      color: $red;
+    }
+
+    #social{
+      text-align: center;
+      a {
+        @include transition();
+        &:hover{
+          img{
+            opacity: .8;
+            @include transition();
+          }
+        }
+        img {
+          height: 33px;
+        }
+        i {
+          font-size: 30px;
+          vertical-align: middle;
+          padding: 0px 5px;
+          color: $blue;
+          @include transition();
+
+
+          &:hover{
+            @include transition();
+            opacity: .8;
+
+          }
+        }
+      }
+    }
+
+  }
+
+  #inquiry{
+    h3, b, strong, label{
+      color: $gold;
+    }
+
+    p, #nf-label-class-field-9-0, #nf-label-class-field-9-1, #nf-label-class-field-9-2, #nf-label-class-field-9-3, #nf-label-class-field-9-4{
+      color: $white !important;
+    }
+    #nf-form-title-1 h3 {
+      display: none;
+    }
+
+    .nf-form-fields-required {
+      display: none;
+    }
+
+    input#nf-field-4 {
+      border: 2px solid white;
+      background: transparent;
+      color: white;
+      font-family: "oswald", sans-serif;
+      padding: 5px 20px;
+      @include transition();
+
+      &:hover{
+        background: $red;
+        border-color: $red;
+      }
+    }
+
+    #payment{
+      text-align: center;
+        i {
+          font-size: 50px;
+          vertical-align: middle;
+          padding: 0px 5px;
+          color: $white;
+          @include transition();
+
+
+          &:hover{
+            @include transition();
+            opacity: .8;
+
+          }
+        }
+    }
+
+  }
+
+}

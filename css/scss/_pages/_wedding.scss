@@ -1,1 +1,44 @@
 /* wedding.scss */
+
+.page-id-2605{
+
+  #specializing{
+    h2{
+      color: $blue;
+    }
+    .vce {
+      margin-bottom: 0;
+    }
+  }
+
+  #pop-package{
+    h2, p{
+      color: $white;
+    }
+
+    strong, b{
+      color: $gold;
+    }
+  }
+
+  #quote{
+
+    img.vce-single-image {
+      width: 30%;
+    }
+
+    .vce {
+      margin-bottom: 0;
+    }
+
+    .vce-text-block .vce-text-block-wrapper {
+      padding-top: 10px;
+
+      b{
+        color: $red;
+      }
+    }
+  }
+
+
+}

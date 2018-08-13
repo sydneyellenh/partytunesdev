@@ -48,25 +48,6 @@
             </div>
         </div>
     </nav>
-    <?php if (!is_front_page()){ ?>
-
-        <?php
-        if (has_post_thumbnail()){ ?>
-            <div class="col-md-12 post-featured-img" style="background-image:url('<?php the_post_thumbnail_url(); ?>');">
-                <header class="entry-header">
-                    <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-                </header><!-- .entry-header -->
-            </div>
-
-        <?php } else { ?> <!-- end  thumbnail if -->
-
-            <div class="col-md-12 post-featured-img">
-                <header class="entry-header">
-                    <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-                </header><!-- .entry-header -->
-            </div>
-        <?php } ?>
-    <?php } ?> <!-- Front page if-->
 
 
     <div id="content" class="site-content">

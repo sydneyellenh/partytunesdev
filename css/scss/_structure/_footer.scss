@@ -4,6 +4,13 @@ footer {
   .textwidget.custom-html-widget {
     text-align: center;
     a {
+      @include transition();
+      &:hover{
+        img{
+          opacity: .8;
+          @include transition();
+        }
+      }
       img {
         height: 33px;
       }
@@ -17,7 +24,7 @@ footer {
 
         &:hover{
           @include transition();
-          color: $blue;
+          opacity: .8;
 
         }
       }

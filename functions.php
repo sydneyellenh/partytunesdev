@@ -131,10 +131,11 @@ function sc_partytunes_scripts() {
     wp_enqueue_style( 'fontawesome', '//use.fontawesome.com/releases/v5.2.0/css/all.css' );
     wp_enqueue_style( 'sc-partytunes-style', get_template_directory_uri() . '/css/style.css' );
 
-	wp_enqueue_script( 'sc-partytunes-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'sc-partytunes-navigation', get_stylesheet_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 	wp_enqueue_script( 'jquery-cdn', '//code.jquery.com/jquery-3.3.1.js', array(), '20151215', true );
+	wp_enqueue_script( 'popper', '//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'bootstrap-js', '//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js', array(), '20151215', true );
-	wp_enqueue_script( 'bootstrap-js-complete', '//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js', array(), '20151215', true );
+//	wp_enqueue_script( 'bootstrap-js-complete', '//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js', array(), '20151215', true );
 
 //    wp_enqueue_script( 'sc-partytunes-customjs', get_template_directory_uri() . '/js/custom.js', array(), '1', true );
 //    wp_enqueue_script( 'prefix-free', get_template_directory_uri() . '/js/prefix-free.js', array(), '2018', true );

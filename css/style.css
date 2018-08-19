@@ -311,72 +311,79 @@ footer p a:hover {
 /* custom welcome page for clients */
 /* contact.scss */
 /* line 6, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+.page-id-2726 #steps .vce-text-block-wrapper {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* line 15, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+.page-id-2726 #steps .step-title {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* line 18, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+.page-id-2726 #steps .step-title h2 {
+  font-size: 38px;
+  display: inline-block;
+}
+
+/* line 22, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+.page-id-2726 #steps .step-title i.fas {
+  font-size: 25px;
+  color: #DB3645;
+  vertical-align: super;
+  padding-right: 10px;
+  text-align: center;
+}
+
+/* line 34, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #contact h1 {
   color: #4CAFCA;
 }
 
-/* line 10, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 38, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #contact strong, .page-id-2726 #contact b {
   color: #DB3645;
 }
 
-/* line 14, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 44, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #contact #social {
   text-align: center;
 }
 
-/* line 16, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 46, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #contact #social a {
   transition: all .2s;
 }
 
-/* line 19, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 49, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #contact #social a:hover img {
   opacity: .8;
   transition: all .2s;
 }
 
-/* line 24, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
-.page-id-2726 #contact #social a img {
-  height: 33px;
-}
-
-/* line 27, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
-.page-id-2726 #contact #social a i {
-  font-size: 30px;
-  vertical-align: middle;
-  padding: 0px 5px;
-  color: #4CAFCA;
-  transition: all .2s;
-}
-
-/* line 35, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
-.page-id-2726 #contact #social a i:hover {
-  transition: all .2s;
-  opacity: .8;
-}
-
-/* line 47, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 60, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #inquiry h3, .page-id-2726 #inquiry b, .page-id-2726 #inquiry strong, .page-id-2726 #inquiry label {
   color: #FCE462;
 }
 
-/* line 51, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 64, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #inquiry p, .page-id-2726 #inquiry #nf-label-class-field-9-0, .page-id-2726 #inquiry #nf-label-class-field-9-1, .page-id-2726 #inquiry #nf-label-class-field-9-2, .page-id-2726 #inquiry #nf-label-class-field-9-3, .page-id-2726 #inquiry #nf-label-class-field-9-4 {
   color: #fff !important;
 }
 
-/* line 54, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 67, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #inquiry #nf-form-title-1 h3 {
   display: none;
 }
 
-/* line 58, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 71, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #inquiry .nf-form-fields-required {
   display: none;
 }
 
-/* line 62, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 75, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #inquiry input#nf-field-4 {
   border: 2px solid white;
   background: transparent;
@@ -386,18 +393,18 @@ footer p a:hover {
   transition: all .2s;
 }
 
-/* line 70, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 83, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #inquiry input#nf-field-4:hover {
   background: #DB3645;
   border-color: #DB3645;
 }
 
-/* line 76, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 89, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #inquiry #payment {
   text-align: center;
 }
 
-/* line 78, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 91, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #inquiry #payment i {
   font-size: 50px;
   vertical-align: middle;
@@ -406,7 +413,7 @@ footer p a:hover {
   transition: all .2s;
 }
 
-/* line 86, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
+/* line 99, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_pages/_contact.scss */
 .page-id-2726 #inquiry #payment i:hover {
   transition: all .2s;
   opacity: .8;
@@ -441,16 +448,24 @@ footer p a:hover {
   #wedding-wire div#ww-widget-reviews .ww-reviews-box .ww-review-score-box {
     text-align: left;
   }
+  /* line 28, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_media_queries/_tablet.scss */
+  .page-id-2213 #header {
+    margin-top: -100px !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
-  /* line 37, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_media_queries/_tablet.scss */
+  /* line 40, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_media_queries/_tablet.scss */
   #wedding-wire .ww-reviews-header-box {
     display: none;
   }
-  /* line 41, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_media_queries/_tablet.scss */
+  /* line 44, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_media_queries/_tablet.scss */
   #wedding-wire .ww-reviews-widget {
     min-width: 100%;
+  }
+  /* line 48, /Users/sydneyhaggard/Documents/Freelance/PartyTunes/WebsiteBuild/sc-partytunes/css/scss/_media_queries/_tablet.scss */
+  .page-id-2213 #header {
+    margin-top: 100px !important;
   }
 }
 

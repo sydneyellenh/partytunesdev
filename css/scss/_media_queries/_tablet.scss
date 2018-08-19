@@ -25,6 +25,9 @@
       }
     }
   }
+  .page-id-2213 #header{
+    margin-top: -100px !important;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -41,5 +44,8 @@
     .ww-reviews-widget {
       min-width: 100%;
     }
+  }
+  .page-id-2213 #header{
+    margin-top: 100px !important;
   }
 }

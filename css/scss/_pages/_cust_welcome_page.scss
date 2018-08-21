@@ -1,4 +1,90 @@
 /* custom welcome page for clients */
+#single-client{
+  margin-top: 76px;
+
+  .file-pdf, .file-doc {
+    display: block;
+  }
+
+  .client-header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    background: url('/wp-content/uploads/2018/08/full-bloom.png');
+    position: relative;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+
+    &::before{
+      content: "";
+      background: $blue;
+      opacity: 0.6;
+      position: absolute;
+      width:100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+
+
+    img{
+      height: 125px;
+      padding-top: 20px;
+      text-align: center !important;
+      margin: 0 auto;
+    }
+
+    .col-md-3{
+      background-size: cover !important;
+      background-position: top center !important;
+      background-repeat: no-repeat !important;
+      min-height: 300px;
+      border: 3px solid white;
+    }
+    .col-md-9{
+      text-align: center;
+      h3{
+        color: white;
+        margin-bottom: 0;
+
+      }
+
+      h1, h3, p{
+        color: white;
+      }
+
+    }
+  }
+
+
+  .client-info{
+    padding-top: 30px;
+
+    h2{
+      color: $blue;
+    }
+
+    .col-sm-9 {
+      padding-left: 0;
+    }
+
+    i.fas.fa-download {
+      color: $red;
+    }
+
+    p{
+
+    }
+
+    div a{
+
+    }
+
+  }
+}
+
 
 .wedding-wire-sec {
   background: #ebebeb;

@@ -44,10 +44,60 @@
                         )
                     );
                     ?>
+
+                    <style>
+                        .in{
+                            display: block;
+                        }
+                    </style>
                 </div>
             </div>
         </div>
     </nav>
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top site-header mobile-menu-sc">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="navbar-brand-mobile">
+                    <a class="navbar-brand-mobile-link" href="/">
+                        <!--                    <img src="###" id="brand-image" alt="--><?php //bloginfo( 'name' ); ?><!--"/>-->
+                        LOGO</a>
+                </div>
+
+
+
+                <div id="navbar" class="navbar-collapse collapse">
+
+                    <div class="nav navbar-nav navbar-mobile">
+                        <div class="sc-toggle-drop-menu">
+
+                            <?php /* Primary navigation */
+                            wp_nav_menu( array(
+                                    'menu' => 'Primary Menu',
+                                    'depth' => 2,
+                                    'container' => false,
+                                    'menu_class' => 'nav navbar-nav'
+                                    //Process nav menu using our custom nav walker
+                                )
+                            );
+                            ?>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
 
 
     <div id="content" class="site-content">
